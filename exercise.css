@@ -1,0 +1,414 @@
+.request{
+    background-color: black;
+
+    padding: 5px 60px 5px 60px ;
+    font-size: smaller;
+    color:white;
+    cursor:pointer;
+    margin-right: 20px;
+    border-radius: 0;
+}
+.request:hover{
+    opacity:0.7
+}
+.request:active{
+    opacity:0.4
+}
+.sign{
+    background-color: rgb(21, 200, 80);
+    height: 39;
+    width: 80;
+    border-radius: 6px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    transition: box-shadow 2s;
+    cursor:pointer;
+}
+.sign:hover{
+   
+    box-shadow:5px 5px 5px  rgba(0, 0, 0, 0.811)
+}
+.sign:active{
+    opacity:0.4
+}
+.get{
+    background-color: blueviolet;
+    height: 39;
+    width: 120;
+    border-radius: 6px;
+    border:none;
+    color:rgb(5, 3, 3);
+    cursor:pointer;
+}
+.get:hover{
+    opacity:0.7
+}
+.get:active{
+    opacity:0.4
+}
+.down{
+    height: 39;
+    width: 105;
+    border-radius: 5px;
+    border:solid;
+    cursor:pointer;
+}
+.down:hover{
+    opacity:0.7;
+    background-color:green;
+}
+.down:active{
+    opacity:0.4
+}
+.tahoma{
+    font-family: Tahoma;
+    font-weight:bold;
+    font-size: 25px;
+}
+.arial{
+    font-family:Arial;
+    font-weight :809;
+    font-size:25PX ;
+    line-height: 4px;
+    margin-bottom: 0;
+}
+.sale{
+    font-family: arial;
+    color:red;
+    line-height: 12px;
+    margin-top: 0;
+    margin-bottom:0;
+}
+.shopp{
+    font-family: Arial;
+    font-weight:790;
+    font-size: 20px;
+    line-height: 10px;
+}
+.apple{
+      margin-left: 55px;
+      font-family: arial;
+      font-size:13px;
+      font-weight: 540;
+      line-height: 7px;
+}
+.learn{
+    color: rgb(28, 28, 174);
+    margin-left:113px;
+    font-family: arial;
+    font-size: 14px;
+    transition: opacity cursor 0.3s;
+    display:inline-block;
+}
+.learn:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+.email{
+    border-width: 1.5px;
+    border-color:  green ;
+    border-radius:2.5px;
+    padding: 4px 45px;
+    margin-top: 6px;
+    text-align: left;
+}
+label{
+    font-family:arial;
+    color: gray;
+    font-size: small;
+    font-weight: 530;
+}
+.join{
+    color: rgb(90, 89, 89);
+    font-size: 14px;
+    font-family: arial;
+}
+button{
+    background-color: rgb(10, 100, 230);
+    color: white;
+    padding: 11px 90px 11px 90px;
+    border-radius: 20px;
+    border:none;
+    font-family: arial;
+}
+.ride{
+    font-size: 25px;
+    font-weight:540;
+    font-family: arial;
+    margin-bottom: 4px;
+}
+.pickup{
+    margin-top: 0px;
+    font-weight: 530;
+    background-color:rgb(243, 243, 243);
+    padding: 9px 110px 9px 13px;
+    border:none;
+    font-size: smaller;
+    font-family: arial;
+}
+.dest{
+    margin-top: 7px;
+    font-weight: 530;
+    background-color:rgb(243, 243, 243);
+    padding: 9px 110px 9px 13px;
+    border:none;
+    font-size: smaller;
+    margin-bottom: 30px;
+    font-family: arial;
+}
+.req{
+    background-color:black;
+    border-radius: 0;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-family: arial;
+    transition: opacity 0.2s;
+    margin-right:10px;
+    border:none;
+}
+.req:hover{
+    opacity:0.2;
+    cursor:cell;
+}
+.later{
+    background-color:rgb(243, 243, 243);
+    border-radius: 0;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-family: arial;
+    transition: opacity 0.2s;
+    color:black;
+    border:none;
+    font-weight: 500;
+    font-family: arial;
+}
+.later:hover{
+    opacity:0.5;
+    cursor:cell;
+}
+.square{
+    background-color: red;
+    border-radius: 0px;
+    padding:40px;
+    margin-top: 9px;
+}
+.circle{
+    background-color: green;
+    border-radius: 40px;
+    padding:30px;
+    margin-top: 5px;
+}
+.install{
+    background-color: black;
+    width:355px;
+}
+.music{
+    color:white;
+    font-size: 16px;
+    font-family: arial;
+    padding-top:14px ;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.add{
+    color:gray;
+    width:350px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+.div{
+    background-color rgb(235, 235, 235);
+}
+.photo{
+    width:200px;
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.harry{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    display:block;
+}
+.name{
+    font-weight: bold;
+    font-family: arial;
+    padding-left: 4px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+.status{
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 11px;
+    margin-top: 0;
+}
+.add-friend{
+    border-radius: 3px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: opacity 0.2s;
+    margin-top: 4px;
+}
+.add-friend:hover{
+    cursor:pointer;
+}
+.add-friend:active{
+    opacity:0.8;
+}
+h2{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: large;
+}    
+.G{
+    font-family: sans-serif,tahoma;
+    color: rgb(10, 100, 230);
+    font-size:50px;
+    font-weight: 500;
+}
+.o{
+    font-family: sans-serif,tahoma;
+    color: rgb(219, 22, 22);
+    font-size:45px;
+    font-weight: 500;
+}
+.oo{
+    font-family: sans-serif,tahoma;
+    color: orange;
+    font-weight: 500;
+    font-size:45px;
+}
+.g{
+    font-family: arial,tahoma;
+    color: rgb(10, 100, 230);
+    font-weight: 500;
+    font-size:50px;
+}
+.l{
+    font-family: sans-serif,tahoma;
+    color: green;
+    font-weight: 500;
+    font-size:50px;
+}
+.e{
+    font-family: sans-serif,tahoma;
+    color: rgb(219, 22, 22);
+    font-weight: 500;
+    font-size:50px;
+}
+.google{
+    font-family: arial;
+    margin-top: 3px;
+    border-radius: 27px;
+    padding:7px 188px 7px 11px;
+    border:none;
+    box-shadow: 0px 1px 3px 2px rgba(0,0,0,0.2);
+}
+.google:hover{
+    border: none;
+    border-color: aliceblue;
+}
+.google:active{
+    
+}
+.profile-picture{
+    width:40px;
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: text-top;
+}
+.image{
+    width:27px;
+    height:26px;
+    border-radius: 43px;
+    margin-top: 0;
+}
+.mutual{
+    display: inline-block;
+}
+.G-search{
+    border-radius: 2px;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    margin-top: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+.g-search{
+   margin-right: 0px;
+   margin-top: 18px;
+}
+.G-search:hover{
+    cursor: pointer;
+}
+.G-search:active{
+    opacity: 0.6;
+}
+#google-search{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.circle-image{
+    width: 50px;
+    margin-top: 35px;
+    display: inline-block;
+    margin-right: 0px;
+}
+.HURRY{
+    width: 40px;
+    height:38px;
+    border-radius:45px;
+    object-fit: cover;
+}
+.oliver{
+    display: inline-block;
+    margin-top: 35px;
+}
+.OLI{
+    font-weight: 600;
+    font-family: arial;
+    font-size:14px;
+    line-height: 0.22;
+}
+.baby,.popular{
+    line-height: 0.22;
+    font-family:arial;
+    font-size:14px;
+    color:gray;
+    font-weight: 500;
+}
+.FOLLOW{
+    text-align: right;
+    margin-top: 55px;
+    padding-top: 20px;
+}
+.follow{
+    border-radius: 4px;
+    padding:5px 10px;
+    background-color: rgb(25, 126, 230);
+    font-family: tahoma;
+    font-weight: 500;
+    font-size:12.4px;
+}
+.follow:hover{
+    cursor:pointer;
+}
+.DANAIT{
+    display: block;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    padding-top: 12px;
+    width: 265px;
+}
